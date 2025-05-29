@@ -6,6 +6,7 @@ import Process from "./components/process";
 import Testimonials from "./components/testimonials";
 import Traction from "./components/traction";
 import './style.css'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 document.addEventListener('DOMContentLoaded', () => {
     const init = () => {
