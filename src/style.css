@@ -58,3 +58,34 @@ body {
         transform: translateY(0px);
     }
 }
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #fef08a 0%, #fca5a5 100%);
+}
+
+.dev-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.dev-card:hover .social-icons {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.social-icons {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+}
+
+.avatar {
+    transition: all 0.3s ease;
+}
+
+.dev-card:hover .avatar {
+    transform: scale(1.1);
+}
