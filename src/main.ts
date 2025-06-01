@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 justify-items-center">
                 <div class="col-span-1">
-                ${Developer('/dhom.png', 'Dhominick John Billena', 'Fullstack Developer', "I believe and sincerely believe that being in the backend is one of the happiest thing I can do!", "", "https://github.com/DhominickJ", "")}
+                ${Developer('/dhom.png', 'Dhominick John Billena', 'Fullstack Developer', "I believe and sincerely believe that overseeing things is one of the happiest thing I can do!", "", "https://github.com/DhominickJ", "")}
                 </div>
                 <div class="col-span-1">
                 ${Developer('/berg.png', 'Mauricio Manuel Bergancia', 'Frontend Developer', "Passionate about creating beautiful and intuitive user interfaces.", "", "https://github.com/berglhynee", "")}
