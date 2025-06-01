@@ -12,9 +12,9 @@ export default function Header(){
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="/" class="text-yellow-900 hover:text-red-600 px-3 py-2 text-sm font-medium" data-route="home">Home</a>
-                    <a href="/" class="text-yellow-900 hover:text-red-600 px-3 py-2 text-sm font-medium" data-route="process">How it works</a>
+                    <a href="/" class="text-yellow-900 hover:text-red-600 px-3 py-2 text-sm font-medium" data-route="process">How it Works</a>
                     <a href="/" class="text-yellow-900 hover:text-red-600 px-3 py-2 text-sm font-medium" data-route="listing">Listings</a>
-                    <a href="/" class="text-yellow-900 hover:text-red-600 px-3 py-2 text-sm font-medium" data-route="about">About</a>
+                    <a href="/" class="text-yellow-900 hover:text-red-600 px-3 py-2 text-sm font-medium" data-route="about">Know your Devs</a>
                 </div>
                 <div class="hidden md:flex items-center">
                     <button class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300">
